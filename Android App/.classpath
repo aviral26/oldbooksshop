@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="I:/adt-bundle-windows-x86_64-20131030/ksoap2-j2se-full-2.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="I:/adt-bundle-windows-x86_64-20131030/activation.jar"/>
+	<classpathentry exported="true" kind="lib" path="I:/adt-bundle-windows-x86_64-20131030/additionnal.jar"/>
+	<classpathentry exported="true" kind="lib" path="I:/adt-bundle-windows-x86_64-20131030/mail.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

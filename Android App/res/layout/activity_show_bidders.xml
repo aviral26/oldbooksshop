@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	 <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="People interested in this book"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"/>
+
+	 <RelativeLayout
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content" >
+
+	     <LinearLayout
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content" >
+
+	         <TextView
+	             android:id="@+id/show_books_emid"
+	             android:layout_width="175dp"
+	             android:layout_height="wrap_content"
+	             android:text="Contact information"
+	             android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	         <TextView
+	             android:id="@+id/showseller_price"
+	             android:layout_width="143dp"
+	             android:layout_height="wrap_content"
+	             android:text="Quoted price"
+	             android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	     </LinearLayout>
+
+	 </RelativeLayout>
+	 
+	  <ListView
+	      android:id="@+id/bidders_listview"
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content" >
+	  </ListView>
+	 
+
+</LinearLayout>

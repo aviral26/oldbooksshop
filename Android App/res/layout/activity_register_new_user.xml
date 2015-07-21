@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/registernewuser_container_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="456dp" >
+
+            <TextView
+                android:id="@+id/registernewuser_textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="New User Registration"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/registernewuser_emailid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/registernewuser_emailtext"
+                android:layout_alignBottom="@+id/registernewuser_emailtext"
+                android:layout_alignParentRight="true"
+                android:ems="10"
+                android:hint="Your email id"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/registernewuser_textview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/registernewuser_password2"
+                android:layout_alignBottom="@+id/registernewuser_password2"
+                android:layout_alignParentLeft="true"
+                android:text="Confirm it:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/registernewuser_emailtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/registernewuser_textview1"
+                android:layout_marginTop="38dp"
+                android:text="Email ID:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/activity_searchcataloguetextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/registernewuser_sendverificationcodebutton"
+                android:layout_marginTop="28dp"
+                android:layout_toLeftOf="@+id/registernewuser_emailid"
+                android:text="Enter received verification code:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/registernewuser_password1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/registernewuser_password1"
+                android:layout_alignParentRight="true"
+                android:ems="10"
+                android:hint="new password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/registernewuser_sendverificationcodebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/registernewuser_textview1"
+                android:layout_centerVertical="true"
+                android:text="Send Verification Code" />
+
+            <TextView
+                android:id="@+id/registernewuser_password1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/registernewuser_emailid"
+                android:layout_marginTop="23dp"
+                android:layout_toLeftOf="@+id/registernewuser_emailid"
+                android:text="Create a password:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/registernewuser_verificationcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/registernewuser_password2"
+                android:layout_alignTop="@+id/activity_searchcataloguetextView1"
+                android:layout_marginTop="17dp"
+                android:ems="10"
+                android:hint="check your email"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/registernewuser_registrationbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_searchcataloguetextView1"
+                android:layout_marginTop="19dp"
+                android:layout_toRightOf="@+id/registernewuser_emailtext"
+                android:text="Register!" />
+
+            <Button
+                android:id="@+id/registernewuser_cancelbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/registernewuser_registrationbutton"
+                android:layout_alignBottom="@+id/registernewuser_registrationbutton"
+                android:layout_alignRight="@+id/registernewuser_sendverificationcodebutton"
+                android:text="Cancel" />
+
+            <EditText
+                android:id="@+id/registernewuser_password2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/registernewuser_sendverificationcodebutton"
+                android:layout_alignParentRight="true"
+                android:ems="10"
+                android:hint="password again"
+                android:inputType="textPassword" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
